@@ -15,7 +15,7 @@
             flex-direction: column;
             align-items: center;
             position: relative;
-                    border-raduis:8px;
+               border-radius:8px ;
         }
         .con h2{
             text-align: center;
