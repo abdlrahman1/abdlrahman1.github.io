@@ -39,7 +39,7 @@ function show_message() {
 
   // Check if the message limit has been reached for the day
   if (messagesShown >= messageLimit) {
-    document.querySelector(".text").innerHTML = "لقد وصلت الي الحد الاقصي من النصائح الهدف من الفكرة كااعطاء مهام يومية للشخص.";
+    document.querySelector(".text").innerHTML = "لقد وصلت الي الحد الاقصي من  الرسائل يمكنك التجربه مره اخري في اليوم التالي .";
     return;
   }
 
@@ -61,7 +61,7 @@ function show_message() {
     messagesShown = 1;
     localStorage.setItem('messagesShown', messagesShown.toString());
   } else {
-    document.querySelector(".text").innerHTML = "لقد وصلت الي الحد الاقصي من النصائح الهدف من الفكرة كااعطاء مهام يومية للشخص.";
+    document.querySelector(".text").innerHTML = "لقد وصلت الي الحد الاقصي من الرسائل يمكنك التجربه مره اخري في اليوم التالي.";
   }
 }
 
