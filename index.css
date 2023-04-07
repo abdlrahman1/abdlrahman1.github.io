@@ -42,6 +42,12 @@
         footer p {
             text-align: center;
         }
+
+      .con textarea{
+            width: 80%;
+            margin-bottom: 10px;
+            height: 130px;
+        }
    @media only screen and (max-width: 600px){
 
             .con{
